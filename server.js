@@ -1,13 +1,6 @@
 const inquirer = require("inquirer");
-const db = require("./db/connection");
+const db = require("./db/connections");
+const cTable = require("console.table");
+const { startQuestion } = require("./utils/helper");
 
-const PORT = process.env.PORT || 3001;
-
-// Start server after DB connection
-db.connect((err) => {
-  if (err) throw err;
-  console.log("Database connected.");
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-});
+startQuestion();
