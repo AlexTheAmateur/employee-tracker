@@ -1,10 +1,10 @@
-# Employee Tracker
+# employee-tracker
 
 ![license](https://img.shields.io/badge/license-MIT-yellowgreen)
 
 ## Description
 
-Employee tracker uses A Database to house and display information on employees, their roles, and departments. Using this app, viewing those details will be just as easy for developers and non-developers alike
+Using console.table, mysql2, and inquirer, this app will allow you to track employees from an SQL database.
 
 ====================
 
@@ -21,15 +21,15 @@ Employee tracker uses A Database to house and display information on employees, 
 
 ## Installation
 
-Download the repository and install the required node modules by running npm install on your command line
+download the repo, you will need to have the required dependancies downloaded using npm install. Once installed, go ahead and source the dql files under the db/ folder to create the database, create the tables, and seed the data.
 
 ## Usage
 
-To use type 'node server.js' in the command line to initialize the commandline questions. There you should be asked a series of questions in order to view and change the list of employees
+you can run node server.js or npm run start to begin the questions in the console (currently only views are available)
 
 ## Test
 
-Once the application is running, try scrolling through the options to change the database
+N/A
 
 ## Contributions
 
